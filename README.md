@@ -18,3 +18,6 @@ cd python_code
 python predict.py MAT_FILE_PATH
 
 The result will be added to the original .mat file.
+
+
+For support please contact: melanie.morrison@ucsf.edu
