@@ -1,15 +1,12 @@
 # DL-CMB_Labeler
 Code and trained models for deep learning-based CMB detection.
 
-Directories
+**Directories:**
 python_code: deep CNN implementation, training, testing and prediction code.
 matlab_code: essential matlab code to prepare data for training, testing and prediction.
-input: training input files.
 final_models: trained model weights and demo data.
-data (NOT IN GITLAB): training data.
-exp (NOT IN GITLAB): training logs and model checkpoints.
 
-Usage:
+**Usage:**
 
 1. Run Lupo-Lab/CMB_Labeler with 'semion' (user-guided GUI for FP reduction) or 'semioff'.
 2. Generate .mat data for CNN (See matlab code example. the .mat requires two fields: 'centroids' and 'swi', see demo data)
